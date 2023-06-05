@@ -39,6 +39,10 @@ class DataIngetion:
 
         except Exception as e:
             raise CustomException(e,sys)
+if __name__ == "__main__":
+    obj = DataIngetion()
+    obj.initialise_data_ingetion()
+    
              
             
 
